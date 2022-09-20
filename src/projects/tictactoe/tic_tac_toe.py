@@ -250,7 +250,7 @@ def minimax(player, board: Board, depth: int = 5) -> int:
     When the player = Human then minimax returns the minimum value of all possible moves the Human could make.
     Minimax works by assuming that at each move the Computer will pick its best move and the Human will pick its best move.
     It does this by making a move for the player whose turn it is, and then recursively calling minimax.
-    The base case results when, given the state of the board, someone has won or the board is full.
+    The base case results when, given the state of the board, someone has won, the board is full or the depth is 0.
     """
     # TODO: Implement this function
     ...
